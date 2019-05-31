@@ -1,6 +1,6 @@
 {
   "name": "css-bem-classes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility to create BEM CSS classes",
   "main": "index.js",
   "scripts": {
