@@ -1,5 +1,5 @@
 {
-  "name": "css-bem",
+  "name": "css-bem-classes",
   "version": "1.0.0",
   "description": "Utility to create BEM CSS classes",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbmb/css-bem.git"
+    "url": "https://github.com/dbmb/css-bem.git"
   },
   "keywords": [
     "react",
