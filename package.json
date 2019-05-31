@@ -25,7 +25,8 @@
     "url": "https://github.com/dbmb/css-bem/issues"
   },
   "homepage": "https://github.com/dbmb/css-bem#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^24.8.0"
   }
 }
