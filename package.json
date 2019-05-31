@@ -1,0 +1,31 @@
+{
+  "name": "css-bem",
+  "version": "1.0.0",
+  "description": "Utility to create BEM CSS classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbmb/css-bem.git"
+  },
+  "keywords": [
+    "react",
+    "sass",
+    "scss",
+    "css",
+    "less",
+    "bem",
+    "react-bem"
+  ],
+  "author": "dbmb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbmb/css-bem/issues"
+  },
+  "homepage": "https://github.com/dbmb/css-bem#readme",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
