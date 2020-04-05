@@ -1,23 +1,16 @@
 # css-bem-classes
 
 ### Usage
-```
-import React from 'react'
-import classNames from 'css-bem-classes'
 
-function Example() {
-  const cn = classNames('block-name')
-  
-  return (
-    <div className={cn()}> // class="block-name" cn({modifier: true}) class="block-name_modifier"
-	  <div 
-	    className={cn('element-name', {
-		  elementModifierBoolean: true,
-		  elementModifierString: 'red',
-		})} // class="block-name__element-name block-name__element-name_elementModifierBoolean block-name__element-name_elementModifierString_red"
-	  />
-    </div>
-  )
-}
 ```
- 
+import classNames from 'css-bem-classes';
+
+const cn = classNames('button', { element: '__', modifier: '_' }); // { element: '__', modifier: '_' } by default
+cn() // => "button"
+cn({ color: 'red' }) // => "button button_color_red"
+cn({ required: true }) // => "button button_required"
+cn('icon') // => "button__icon"
+cn('icon', { search: true }) // => "button__icon button__icon_search"
+cn('icon', { color: 'red' }) // => "button__icon button__icon_color_red"
+cn('icon', { search: true, color: 'red' }) // => "button__icon button__icon_search button__icon_color_red"
+```
