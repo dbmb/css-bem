@@ -1,4 +1,4 @@
-const cssBem = require('../src/index')
+import cssBem from '../index'
 
 describe('CSS BEM', () => {
   const cn = cssBem('root-block')
